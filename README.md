@@ -19,6 +19,8 @@ Dependencies can be installed via `pip` command, for example:
 $ pip install pydicom
 ``` 
 
+The dataset can be found here: https://github.com/ImagingInformatics/hackathon-dataset
+
 ### Usage
 
 The DICOM processor requires a path to the root folder, which should contain other folders and files grouped as follows:
