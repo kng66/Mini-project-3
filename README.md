@@ -39,4 +39,6 @@ Currently, the Integration engine comes with one templates:
 - template for `ImagingStudy` FHIR objects (integrating DICOM image metadata with FHIR HL7-based servers),
 
 
+###Example
+
 
