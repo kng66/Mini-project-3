@@ -1,7 +1,7 @@
 # Mini-project-3
 
 ##Info
-This repository consists of the parse file and the dataset folder. The pydicom package is to read DICOM file and transfer DICOM tags into a dictionary. The dictionary will recevice information of the DICOM image file and parsed into a FHIR ImagingStudy resourse standard.
+This repository consists of the parse file. The pydicom package is to read DICOM file and transfer DICOM tags into a dictionary. The dictionary will recevice information of the DICOM image file and parsed into a FHIR ImagingStudy resourse standard.
 
 ###Installation
 
