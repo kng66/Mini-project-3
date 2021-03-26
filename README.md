@@ -1,9 +1,9 @@
 # Mini-project-3
 
-##Info
+## Info
 This repository consists of the parse file. The pydicom package is to read DICOM file and transfer DICOM tags into a dictionary. The dictionary will recevice information of the DICOM image file and parsed into a FHIR ImagingStudy resourse standard.
 
-###Installation
+### Installation
 
 This application requires Python 3 to run.
 
@@ -39,7 +39,7 @@ Currently, the Integration engine comes with one templates:
 - template for `ImagingStudy` FHIR objects (integrating DICOM image metadata with FHIR HL7-based servers),
 
 
-###Example
+### Example
 
 ```sh
 $ python main.py -i ./StudyFolder -o output.txt
