@@ -99,8 +99,5 @@
       ]
     }
   ],
-  "managingOrganization": {
-    "reference": "Organization/siim"
-  },
   "active": true
 }
