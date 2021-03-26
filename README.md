@@ -23,19 +23,17 @@ The dataset can be found here: https://github.com/ImagingInformatics/hackathon-d
 
 ### Usage
 
-The DICOM processor requires a path to the root folder, which should contain other folders and files grouped as follows:
+The DICOM processor requires a path to the study folder, which should contain other folders and files grouped as follows:
 ```sh
    |- Patients
-      |- Series
-          |- Instances (.dcm files)
+      |- study
+         |- Series
+             |- Instances (.dcm files)
 ```
 
 ### Templating
 
-The parsing uses pydicom function to_json_dict() to access each DICOM tag as a key and DICOM metadata as the value. 
-
-While creating a template, following properties are available for the user: 
-- `instance` objects have dictonary key and value that reads the DICOM file's tag under given coordinates. 
+The parsing uses pydicom function to_json_dict() to access each DICOM tag as a key and DICOM metadata as the value.  
 
 Currently, the Integration engine comes with one templates:
 - template for `ImagingStudy` FHIR objects (integrating DICOM image metadata with FHIR HL7-based servers),
@@ -43,4 +41,6 @@ Currently, the Integration engine comes with one templates:
 
 ###Example
 
-
+```sh
+$ python main.py -i ./StudyFolder -o output.txt
+```
